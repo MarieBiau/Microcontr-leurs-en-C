@@ -1,0 +1,14 @@
+.\Output\terminal.o: ..\User\touch\terminal.c
+.\Output\terminal.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\LPC17xx.h
+.\Output\terminal.o: ..\Libraries\CM3\CoreSupport\core_cm3.h
+.\Output\terminal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Output\terminal.o: ..\Libraries\CM3\CoreSupport\core_cmInstr.h
+.\Output\terminal.o: ..\Libraries\CM3\CoreSupport\core_cmFunc.h
+.\Output\terminal.o: ..\Libraries\CM3\DeviceSupport\NXP\LPC17xx\system_LPC17xx.h
+.\Output\terminal.o: ..\User\touch\terminal.h
+.\Output\terminal.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_uart.h
+.\Output\terminal.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc_types.h
+.\Output\terminal.o: ..\Libraries\LCP1768_StdPeriph_Driver\include\lpc17xx_pinsel.h
+.\Output\terminal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\Output\terminal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\Output\terminal.o: ..\User\global.h

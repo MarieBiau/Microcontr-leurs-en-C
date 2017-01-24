@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\output\startup_lpc17xx.o" ".\output\system_lpc17xx.o" ".\output\core_cm3.o" ".\output\lpc17xx_clkpwr.o" ".\output\lpc17xx_gpio.o" ".\output\lpc17xx_pinsel.o" ".\output\lpc17xx_timer.o" ".\output\lpc17xx_uart.o" ".\output\lpc17xx_adc.o" ".\output\lpc17xx_exti.o" ".\output\lpc17xx_pwm.o" ".\output\lpc17xx_nvic.o" ".\output\lpc17xx_i2c.o" ".\output\lpc17xx_spi.o" ".\output\lpc17xx_ssp.o" ".\output\systen_delay.o" ".\output\pinconf.o" ".\output\timer0.o" ".\output\bip.o" ".\output\main.o" ".\output\timer3.o" ".\output\ultrason.o" ".\output\reception.o" ".\output\timer2.o" ".\output\emission.o" ".\output\ecran.o" ".\output\english_16x8.o" ".\output\ili_lcd_general.o" ".\output\lcd_api.o" ".\output\terminal.o" ".\output\touch_panel.o" 
+--strict --scatter ".\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\Project.map" -o .\Output\Project.axf

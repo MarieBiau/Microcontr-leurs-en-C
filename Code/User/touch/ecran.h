@@ -1,0 +1,11 @@
+void pin_Configuration(void);
+void lcd_Initializtion(void);
+void lcd_clear(unsigned short);
+void LCD_write_english(uint16_t, uint16_t, uint8_t, unsigned int, unsigned int);
+void LCD_write_english_string(uint16_t, uint16_t, char*, unsigned int, unsigned int);
+int sprintf(char*, const char*);
+void initialisation_ecran(void);
+void initialisation_variables_ecran (void);
+void update_password(void);
+void affichage(void);
+void valider(void);

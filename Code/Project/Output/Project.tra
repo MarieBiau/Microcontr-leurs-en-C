@@ -1,0 +1,50 @@
+*** Creating Trace Output File '.\Output\Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_lpc17xx.o"'
+### List of Objects: adding '".\output\system_lpc17xx.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\lpc17xx_clkpwr.o"'
+### List of Objects: adding '".\output\lpc17xx_gpio.o"'
+### List of Objects: adding '".\output\lpc17xx_pinsel.o"'
+### List of Objects: adding '".\output\lpc17xx_timer.o"'
+### List of Objects: adding '".\output\lpc17xx_uart.o"'
+### List of Objects: adding '".\output\lpc17xx_adc.o"'
+### List of Objects: adding '".\output\lpc17xx_exti.o"'
+### List of Objects: adding '".\output\lpc17xx_pwm.o"'
+### List of Objects: adding '".\output\lpc17xx_nvic.o"'
+### List of Objects: adding '".\output\lpc17xx_i2c.o"'
+### List of Objects: adding '".\output\lpc17xx_spi.o"'
+### List of Objects: adding '".\output\lpc17xx_ssp.o"'
+### List of Objects: adding '".\output\systen_delay.o"'
+### List of Objects: adding '".\output\pinconf.o"'
+### List of Objects: adding '".\output\timer0.o"'
+### List of Objects: adding '".\output\bip.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\timer3.o"'
+### List of Objects: adding '".\output\ultrason.o"'
+### List of Objects: adding '".\output\reception.o"'
+### List of Objects: adding '".\output\timer2.o"'
+### List of Objects: adding '".\output\emission.o"'
+### List of Objects: adding '".\output\ecran.o"'
+### List of Objects: adding '".\output\english_16x8.o"'
+### List of Objects: adding '".\output\ili_lcd_general.o"'
+### List of Objects: adding '".\output\lcd_api.o"'
+### List of Objects: adding '".\output\terminal.o"'
+### List of Objects: adding '".\output\touch_panel.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_lpc17xx.o" ".\output\system_lpc17xx.o" ".\output\core_cm3.o" ".\output\lpc17xx_clkpwr.o" ".\output\lpc17xx_gpio.o" ".\output\lpc17xx_pinsel.o" ".\output\lpc17xx_timer.o" ".\output\lpc17xx_uart.o" ".\output\lpc17xx_adc.o" ".\output\lpc17xx_exti.o" ".\output\lpc17xx_pwm.o" ".\output\lpc17xx_nvic.o" ".\output\lpc17xx_i2c.o" ".\output\lpc17xx_spi.o" ".\output\lpc17xx_ssp.o" ".\output\systen_delay.o" ".\output\pinconf.o" ".\output\timer0.o" ".\output\bip.o" ".\output\main.o" ".\output\timer3.o" ".\output\ultrason.o" ".\output\reception.o" ".\output\timer2.o" ".\output\emission.o" ".\output\ecran.o" ".\output\english_16x8.o" ".\output\ili_lcd_general.o" ".\output\lcd_api.o" ".\output\terminal.o" ".\output\touch_panel.o" 
+--strict --scatter ".\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\Project.map" -o .\Output\Project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Project.axf'
+### ADS-LD Command File: '.\Output\Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Project.lnp', Handle=0x000005C0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
